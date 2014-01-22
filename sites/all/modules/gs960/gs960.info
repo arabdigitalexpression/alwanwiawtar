@@ -1,0 +1,4 @@
+name="960 Grid System"
+description= "Adds 960 Grid System CSS files to your website to use with your custom theme while taking care of language direction automatically."
+core=7.x
+package= Other

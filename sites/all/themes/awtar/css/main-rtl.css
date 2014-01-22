@@ -1,0 +1,258 @@
+ul, ol {  margin: 0 1.5em 0 1.5em ;  padding-right: 1.5em; }
+dd {  margin-right: 1.5em; }
+th { padding-left: 1em; }
+.sticky-header th, .sticky-table th {padding-left: 1em;  text-align: right; }
+
+#header #logo {
+    float: right;
+    margin: 0 0 1.5em 1em;
+}
+
+#header #site-name-slogan {
+    float: right;
+    margin: 0 0 1.5em;
+}
+
+#header #site-name {
+    font-family: 'Droid Arabic Kufi', serif;
+    font-size: 2.5em;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0;
+}
+
+#navigation ul#secondary-menu li {
+    float: right;
+}
+
+#navigation ul#secondary-menu li a {
+    padding-left:2em;
+}
+
+.item-list ul {
+    padding-right:1.5em;
+}
+
+ul.primary li a {
+    float: right;
+}
+
+
+ul.secondary li {
+    border-left: none;
+}
+
+ul.secondary li a, ul.secondary li a:link {
+    float: right;
+}
+
+.field-name-field-tags .field-item {
+    margin-left: 1em;
+}
+
+.comment .new {
+    margin-right: 1em;
+}
+
+#footer a.feed-icon {
+    left: 0;
+}
+
+body{
+    font-family: 'Droid Arabic Kufi', serif;
+}
+
+/*.sep_header_home,*/
+/*.sep_header{*/
+    /*background: url(../images/spe-header.png) no-repeat;*/
+    /*height : 8px;*/
+    /*width : 960px;*/
+/*}*/
+
+.sep-left{
+    background: url(../images/sep-right.png) no-repeat;
+}
+
+.sep-right{
+    background: url(../images/sep-left.png) no-repeat;
+}
+
+#main-menu{
+    font-family: 'Droid Arabic Kufi', serif;
+    font-size: 1.24em;
+    letter-spacing: 0em;
+}
+#main-menu li {
+    margin-left: 15px;
+}
+
+#main-menu li a {
+    width: 104%;
+}
+
+#main-menu li.first,
+#main-menu li.second,
+#main-menu li.third,
+#main-menu li.forth,
+#main-menu li.fifth,
+#main-menu li.last{
+    -vendor-transform-origin: bottom right;
+}
+
+#what-we-do div.grid-4{
+    -webkit-box-shadow: -4px 0px 8px 0 #E1E1CE;
+    -moz-box-shadow: -4px 0px 8px 0 #E1E1CE;
+    -ms-box-shadow: -4px 0px 8px 0 #E1E1CE;
+    -o-box-shadow: -4px 0px 8px 0 #E1E1CE;
+    box-shadow: -4px 0px 8px 0 #E1E1CE;
+    width: 300px;
+    height: 243px;
+}
+
+h1.main-title{
+    font-family: 'Droid Arabic Kufi', serif;
+    font-size: 2em;
+    letter-spacing: 0em;
+    padding-right : 0.25em;
+}
+
+h1.main-title.event-title{
+    font-size:26px;
+}
+
+h1.main-title.what-title{
+    margin-top : 0.4em;
+}
+
+div.main-body{
+    letter-spacing: 0em;
+}
+
+.footer{
+    background: url(../images/sep-left.png) no-repeat;
+}
+
+#event-image img{
+    float:left;
+    -webkit-transform: rotate(+1deg);
+    -moz-transform: rotate(+1deg);
+    -ms-transform: rotate(+1deg);
+    -o-transform: rotate(+1deg);
+    transform: rotate(+1deg);
+    margin-top: 20px;
+}
+
+
+ul.social{padding-right:0;}
+
+h1.title#page-title{
+    font-family: 'Droid Arabic Kufi', serif;
+    font-size: 2em;
+    letter-spacing: 0em;
+    margin: 0.5em auto;
+    padding-right : 0.25em;
+}
+
+#sidebar ul.menu{
+    padding-right: 0em;
+}
+
+#sidebar ul.menu li.leaf{
+    font-family: 'Droid Arabic Kufi', serif;
+    font-size: 1.24em;
+    letter-spacing: 0em;
+    -vendor-transform-origin: bottom right;
+}
+
+#sidebar ul.menu li.leaf a {
+    width: 104%;
+}
+
+.rotate{
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -vendor-transform-origin: bottom right;
+}
+
+#main-content,#pages-content{
+    margin-top:0.25em;
+    -webkit-box-shadow: -4px 0px 8px 0 #E1E1CE;
+    -moz-box-shadow: -4px 0px 8px 0 #E1E1CE;
+    -ms-box-shadow: -4px 0px 8px 0 #E1E1CE;
+    -o-box-shadow: -4px 0px 8px 0 #E1E1CE;
+    box-shadow: -4px 0px 8px 0 #E1E1CE;
+    background: #fdfdfd;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+.events-list h3.title{
+    font-size:18px;
+    margin:15px 5px 0px 0px;
+}
+.events-list h4.subtitle{font-size:14px; margin: 5px 5px 5px 0px;}
+
+#pages-content h4.subtitle{
+    font-family: 'Droid Arabic Kufi', serif;
+    font-size: 18px;
+    letter-spacing: 0em; margin: 5px 5px 5px 0px;}
+
+.events-list .event-body{
+    font-size:0.875em;
+    margin:0px 5px 0px 0px;
+    line-height:1.8462;
+}
+
+.events-list .date,
+.date{
+    font-size:0.625em ;
+    line-height: 2.4;
+    margin:0px 0px 0px 5px;
+    text-indent: 18px;
+    background: url(../images/cal-icon.png) no-repeat right top;
+}
+
+.item-list{
+    float:left;
+}
+.item-list .pager{
+    font-family: 'Droid Arabic Kufi', serif;
+    font-size: 0.875em;
+    line-height: 1.7143;
+    color: #ed6a34;
+}
+
+div.map-image{
+    margin: 10px auto;
+    padding: 10px;
+}
+.float-right{
+    float:left;
+}
+.float-left{
+    float:right;
+}
+
+.lang{left:10px;text-align: left;}
+.lang a{
+    font-family: 'Schoolbell', cursive;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    margin: 5px 0px 5px 5px;
+}
+
+#navigation .section {
+    margin-top: 27px;
+}
+
+footer#footer ul.menu {
+    margin: 0px;
+    padding-right: 0px;
+}
+
+footer#footer ul.menu li{
+    padding: 3px 0px;
+}

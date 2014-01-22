@@ -1,0 +1,20 @@
+<?php 
+
+function gs960_perm() {
+  return array(
+    'administer 960 grid system',
+  );
+}
+
+function gs960_init() {
+  global $language;
+  $css_path = path_to_theme();
+  $css_file = ($language->direction == 0)?'960.css':'960_rtl.css';
+  if (file_exists($css_path . '/css/' . $css_file)) {
+    drupal_add_css($css_path . '/css/' . $css_file);
+  }
+  elseif (user_access('administer 960 grid system')) {
+    //$errormessage = t('Required 960 Grid System CSS file was not found in <em>!path</em>', array('!path'=>$css_path . '/css'));
+    //drupal_set_message($errormessage, 'error');
+  }
+}

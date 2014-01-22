@@ -1,0 +1,12 @@
+name = i18n User
+description = "Translate emails send from the User module."
+
+; Core version (required)
+core = 7.x
+
+; Package name (see http://drupal.org/node/542202 for a list of names)
+package = Multilingual - Internationalization
+
+; Dependencies
+dependencies[] = i18n_variable
+

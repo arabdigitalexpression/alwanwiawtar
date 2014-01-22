@@ -1,0 +1,29 @@
+<?php
+/**
+* Implementation of hook_mail_alter().
+*/
+
+/** This is a module that allows the site name to be used as the senders name for 
+* outgoing email and translate this site name according to each user prefered language.
+* see http://drupal.org/node/209672
+*/
+
+function mail_sender_mail_alter(&$message) {
+	$default_from = variable_get('site_mail', ini_get('sendmail_from'));
+	if (user_load_by_mail($message['to'])) {
+		$recipient_account = user_load_by_mail($message['to']);
+		$user_lang_code = $recipient_account->language;
+		$default_language = language_default();
+		$default_lang_code = $default_language->language;
+  		if($message['from'] == $default_from) {
+			if ($user_lang_code == $default_lang_code) {
+				$message['from'] = "=?UTF-8?B?".base64_encode(variable_get('site_name', 'Drupal'))."?=".' <'. $default_from .'>';
+			} else {
+				$message['from'] = "=?UTF-8?B?".base64_encode(i18n_variable_get('site_name', $user_lang_code))."?=".' <'. $default_from .'>';
+			}
+  			$message['headers']['From'] = $message['headers']['Sender'] = $message['headers']['Return-Path'] = $message['headers']['Errors-To'] = $message['headers']['Reply-To'] = $message['from'];
+  		}
+	} else {
+		$recipient_account = '';	
+  	}
+}

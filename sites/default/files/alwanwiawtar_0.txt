@@ -1,0 +1,43 @@
+calendar-field-event-date/month
+mysql -ualwanwiawtar -p alwanwiawtar > /home/wafaa/Desktop/alwanwiawtar-19-03-02-51-2012.sql
+
+mysqldump -ualwanwiawtar -p alwanwiawtar > /home/wafaa/Desktop/alwanwiawtar-19-03-02-51-2012.sql
+alwanwiawtar
+الأنشطة
+أخبارنا
+  تفاصيل الرحلات الميدانية
+وصف المشاريع 
+المزيد عن وسائل الاعلام 
+  عنوان المشروع 
+حررها !username يتاريخ !datetime ./page.tpl.php
+
+<?php
+global $language;
+if ($language->language == 'en') {
+  return TRUE;
+} else {
+  return FALSE;
+}
+?>
+issue
+=======
+
+http://drupal.org/node/1294946
+
+http://drupal.org/node/1253300
+
+http://drupal.org/node/748620
+
+
+ul.language-switcher-locale-url {
+	float: right;
+	margin-top: -44px;
+}
+
+
+رحلات ميدانية 1
+
+
+وسائل الأعلام 1
+
+

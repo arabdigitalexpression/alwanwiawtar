@@ -1,0 +1,8 @@
+filename = "alwanwiawtar-2013-01-09T11-32-08"
+description = ""
+datestamp = "1357723931"
+generator = "Backup and Migrate (http://drupal.org/project/backup_migrate)"
+generatorversion = "7.x-2.x"
+sites[0][version] = "7.17"
+sites[0][name] = "alwanwiawtar"
+sites[0][url] = "http://alwanawtar.staging.arabdigitalexpression.org/"

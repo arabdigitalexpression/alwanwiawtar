@@ -1,0 +1,36 @@
+name = awtar
+core = 7.x
+description = Alwan Wa Awtar  Website Theme.
+
+#stylesheets[all][] = css/reset.css
+stylesheets[all][] = css/main.css
+
+scripts[] = javascript/myscript.js
+
+
+#regions[featured] = Featured
+#regions[content] = Content
+#regions[sidebar] = Sidebar
+#regions[footer] = Footer
+#regions[sidebar_first]  = First Sidebar
+#regions[sidebar_second] = Second Sidebar
+#regoins[highlighted] = Highlighted
+
+regions[header]         = Header
+regions[navigation]     = Navigation
+regions[highlighted]    = Highlighted
+regions[help]           = Help
+regions[content]        = Content
+regions[sidebar]        = Sidebar
+regions[footer-1]         = Footer 1
+regions[footer-2]         = Footer 2
+regions[footer-3]         = Footer 3
+regions[footer-4]         = Footer 4
+
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = favicon
+features[] = main_menu
+#features[] = secondary_menu

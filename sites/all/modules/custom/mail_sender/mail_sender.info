@@ -1,0 +1,4 @@
+name = Altering mail sender Information
+core = 7.x
+description =  Add site name to to site email in seder information.
+package = Email Sender Information
